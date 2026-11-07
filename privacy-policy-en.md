@@ -3,15 +3,15 @@
 - App name: Niuma (牛马脱敏器)
 - Bundle name: com.xmgod.niuma
 - Version: 1.0.0
-- Updated: 2026-11-06
-- Effective: 2026-11-06
+- Updated: 2026-11-07
+- Effective: 2026-11-07
 - Contact: tomkuku588@gmail.com
 
 Welcome to Niuma (牛马脱敏器). This policy applies to the HarmonyOS version of the app and explains how information is handled when you install and use it. The developer/operator is the entity publishing the app, as displayed on the AppGallery listing under the verified developer identity. The contact email is tomkuku588@gmail.com. The app is a fully offline salary estimation tool that is free, ad-free, and requires no registration.
 
 ## 1. What Information We Process and Why
 
-We process mainly the data you actively configure or that is generated locally while you use the app, including app settings such as salary mode and amount, monthly paid days, start/end and lunch times, selected workdays, day overrides, overtime rate, payday, currency symbol, wish list, quotes, decimal precision, theme, privacy masking, and reminder switches, as well as the daily estimate, off-work countdown, wish progress, and home-screen card snapshot generated locally from those settings. The purposes are local salary and schedule estimation, page and home-screen card display, local reminders, backup migration, and necessary troubleshooting. The current version does not keep a daily income ledger or attendance records, does not provide account registration or login, and does not collect your phone number, email address, precise location, contacts, SMS, call logs, photo library, facial data, fingerprints, or similar personal information by default.
+We process mainly the data you actively configure or that is generated locally while you use the app, including app settings such as salary mode and amount, monthly paid days, start/end and lunch times, selected workdays, day overrides, overtime rate, payday, currency symbol, wish list, quotes, decimal precision, theme, and privacy masking, as well as the daily estimate, off-work countdown, wish progress, and home-screen card snapshot generated locally from those settings. The purposes are local salary and schedule estimation, page and home-screen card display, backup migration, and necessary troubleshooting. The current version does not keep a daily income ledger or attendance records, does not provide account registration or login, and does not collect your phone number, email address, precise location, contacts, SMS, call logs, photo library, facial data, fingerprints, or similar personal information by default.
 
 ## 2. Where Information Is Stored, How Long, and How to Delete It
 
@@ -19,7 +19,7 @@ The above information is stored by default in the app sandbox on your device: ap
 
 ## 3. Permissions and System Capabilities
 
-The core features of the current version run fully offline and do not depend on network access. The app declares only one permission, ohos.permission.PUBLISH_AGENT_REMINDER, which is used to publish local reminders at the start and end times you set; notification content does not include amounts. The app does not request network, location, camera, microphone, contacts, SMS, or photo library permissions. For backup migration, the app invokes the HarmonyOS system document picker (DocumentViewPicker) to read or save a JSON file, with the scope selected by you in the system picker. When you tap copy or share, the app writes the generated text to the system clipboard. The home-screen card extension only reads the local snapshot file for display. Other than the system capabilities necessary for those functions, the current version does not read unrelated files in the background. If a future version adds new permissions or system capabilities, we will explain them before the relevant feature is triggered and obtain authorization where required by law.
+The core features of the current version run fully offline and do not depend on network access. The current version declares no system permissions. For backup migration, the app invokes the HarmonyOS system document picker (DocumentViewPicker) to read or save a JSON file, with the scope selected by you in the system picker. When you tap copy or share, the app writes the generated text to the system clipboard. The home-screen card extension only reads the local snapshot file for display. Other than the system capabilities necessary for those functions, the current version does not read unrelated files in the background. If a future version adds new permissions or system capabilities, we will explain them before the relevant feature is triggered and obtain authorization where required by law.
 
 ## 4. Sharing, Transfer, and Public Disclosure
 

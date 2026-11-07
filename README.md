@@ -15,11 +15,10 @@
 
 页面正文与下列实现事实一一对应，修改应用时需同步核对：
 
-- `entry/src/main/module.json5` 仅声明 `ohos.permission.PUBLISH_AGENT_REMINDER` 一项本地提醒代理权限；未申请网络、定位、相机、麦克风、通讯录、短信、相册等权限，应用完全离线运行。
+- `entry/src/main/module.json5` 未声明任何系统权限；应用完全离线运行。
 - `oh-package.json5` 的 `dependencies` 为空对象，全工程无 HTTP/Socket/fetch 调用，不接入任何第三方 SDK、AI 或云端服务。
-- 应用设置（薪资与作息、工作日与调休、加班倍率、发薪日、币符、心愿、语录、显示/主题/防窥/提醒开关）保存在沙箱 preferences（`niuma.cfg`）；桌面卡片使用沙箱文件 `settings.snapshot.json` 与 `widget-forms.json`；不上传、不云同步，也不保存每日收入流水。
+- 应用设置（薪资与作息、工作日与调休、加班倍率、发薪日、币符、心愿、语录、显示/主题/防窥）保存在沙箱 preferences（`niuma.cfg`）；桌面卡片使用沙箱文件 `settings.snapshot.json` 与 `widget-forms.json`；不上传、不云同步，也不保存每日收入流水。
 - 备份导出/导入通过系统 `DocumentViewPicker` 选择 JSON 文件，明文保存，导入上限 1 MiB，保存位置由用户决定。
-- 本地提醒通过 `reminderAgentManager` 发布，通知正文不含金额。
 - 复制/分享时写入系统剪贴板，仅在用户主动点击后发生。
 - 桌面卡片默认隐藏金额，可在设置中开启显示；卡片扩展仅读取本地快照。
 
@@ -46,7 +45,7 @@
 
 AGC 提审时「隐私政策 URL」填写隐私政策直达地址。
 
-## 包名一致性提醒
+## 包名一致性核对
 
 当前应用工程 `AppScope/app.json5` 中的 `bundleName` 仍是占位的 `com.example.niuma`，本仓库协议页与 README 已按正式包名 `com.xmgod.niuma` 书写。上架前必须把应用包名改为 `com.xmgod.niuma`，并重新核对页面正文与应用内展示，避免审核时主体信息不一致。
 

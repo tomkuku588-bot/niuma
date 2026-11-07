@@ -3,15 +3,15 @@
 - App name: Niuma (牛马脱敏器)
 - Bundle name: com.xmgod.niuma
 - Version: 1.0.0
-- Updated: 2026-11-06
-- Effective: 2026-11-06
+- Updated: 2026-11-07
+- Effective: 2026-11-07
 - Contact: tomkuku588@gmail.com
 
 Welcome to Niuma (牛马脱敏器). These terms apply to the HarmonyOS version of the app. The developer/operator is the entity publishing the app, as displayed on the AppGallery listing under the verified developer identity. The contact email is tomkuku588@gmail.com. Before downloading, installing, accessing, or using the app, you should read these terms together with the Niuma Privacy Policy.
 
 ## 1. Scope of the Agreement and Nature of the Service
 
-This app is a salary estimation and life-wish tool for personal use. It estimates today's earnings locally based on the salary, schedule, workdays, and day overrides you set, calculates an off-work countdown, displays wish progress and home-screen cards, and schedules local reminders when you enable them. The app runs fully offline and does not provide payroll, attendance, tax, or labor-law advice. Estimation results do not represent actual wages, amounts received, or after-tax income and are for personal reference only.
+This app is a salary estimation and life-wish tool for personal use. It estimates today's earnings locally based on the salary, schedule, workdays, and day overrides you set, calculates an off-work countdown, displays wish progress and home-screen cards. The app runs fully offline and does not provide payroll, attendance, tax, or labor-law advice. Estimation results do not represent actual wages, amounts received, or after-tax income and are for personal reference only.
 
 ## 2. Eligibility and Basic Rules of Use
 
@@ -27,7 +27,7 @@ The current version of the app is primarily based on local processing and does n
 
 ## 5. Permissions, System Capabilities, and Third-Party Services
 
-The current version uses only the local reminder agent permission and system capabilities such as the system document picker, clipboard, and home-screen cards; its core features run fully offline. The current version does not rely on built-in third-party services for advertising, commercial analytics, social login, maps, payment, or push notifications as a condition for basic operation. If a future version adds such permissions, system capabilities, or third-party services, the actual version behavior, privacy policy, and in-app notices will prevail.
+The current version declares no system permissions and uses only system capabilities such as the system document picker, clipboard, and home-screen cards; its core features run fully offline. The current version does not rely on built-in third-party services for advertising, commercial analytics, social login, maps, payment, or push notifications as a condition for basic operation. If a future version adds such permissions, system capabilities, or third-party services, the actual version behavior, privacy policy, and in-app notices will prevail.
 
 ## 6. Intellectual Property
 
